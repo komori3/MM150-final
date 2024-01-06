@@ -43,6 +43,7 @@ Last Submission: [QueenAttack.cpp](QueenAttack.cpp)
 * Consider how to minimize the number of diagonal constraint violations while satisfying row and column constraints.
   * <b>Just pick any two elements of the permutation and swap them. (this can be done in constant time)</b>
   * See implementation around L156~224 in the source code (`struct NQueen`).
+
 <img src="media/state.png" width="300"> <img src="media/swapping.png" width="300"> <img src="media/swapped.png" width="300">
 
 * For cases with multiple sets of queens and walls (as in the problem):

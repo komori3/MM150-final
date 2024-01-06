@@ -40,6 +40,7 @@
 * 行と列の制約を満たしながら、斜めの制約違反の個数を最小化する
   * <b>順列 {c<sub>0</sub>, ..., c<sub>N-1</sub>} の二要素を選んで swap すればよい（定数時間）</b>
   * ソースコードの L156~224 付近に実装があります（`struct NQueen`）
+
 <img src="media/state.png" width="300"> <img src="media/swapping.png" width="300"> <img src="media/swapped.png" width="300">
 
 * クイーンが複数セット存在し、壁もある場合（問題と同条件）
